@@ -15,7 +15,20 @@
     font-size: 20px;
     font-weight: 600;
     color: rgb(13,19,33);
+    width: 171px;
+    height: 47px;
+    margin-top: 32px;
 }
+.section-title{
+    font-size: 32;
+    font-weight: 800;
+    padding: 0 47px;
+    
+}
+.section-description{
+    font-size: 16px;
+    color: #0D1321;
+} 
 .btn-primary{
     background-color: white;
     font-size: 20px;
@@ -60,16 +73,22 @@ nav ul li{
     width: 1440px;
     height: 652px;
 }
+.banner-content{
+    width: 998px;
+    margin: 26px 221px 45px 221px;
+    
+}
 .banner-title{
     font-size: 48px;
     font-weight: 800;
     text-align: center;
+    
 }
 .banner-description{
     font-size: 16px;
     font-weight: 400;
     text-align: center;
-    margin: 32px 294px;
+    margin: 24px 73px 0 73px;
 }
 
 .btn-contact{
@@ -78,17 +97,72 @@ nav ul li{
         font-weight: 600;
         color: white;
         padding: 21px 24px;
-        margin: 32px 0;
-        width: auto;
-        height: auto;
-        margin-left: 616px;
+        margin: 34px 377px 0 377px;
+        width: 244px;
         border-radius: 8px;
     }
 .banner-profile{
     width: 240.28px;
     height: 240px;
-    margin-top: 26px;
-    margin-left: 599.86px;
+    margin: 0 378.86px 32px 378.86px;
+}
+/* main style */
+main{
+    max-width: 1140px;
+    margin: 74px 152px 0px 148px;
+    
+    
+}
+.why-web-dev{
+    width: 946px;
+    margin: 80px 97px; 
+    
+}
+.section-width{
+    width: 852px;
+    text-align: center;
+    color: #0D1321;
+    margin: 0px 47px;
+    
+}
+.section-description{
+    margin-top: 24px;
+}
+.section-box{
+    padding: 48px;
+    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+    
+}
+.section-box-1{
+    padding: 48px;
+    
+    display: flex;
+    align-items: center;
+    
 }
 
-
+.photo-width-1{
+    width: 274.17px;
+    height: 240px;
+    margin-left: 98.83px;
+}
+.photo-width-2{
+    width: 240px;
+    height: 240px;
+    margin-left: 32px;
+}
+.photo-width-3{
+    width: 240px;
+    height: 240px;
+    margin-right: 133px;
+}
+.section-this-div{
+    width: 477px;
+    padding: 48px;
+}
+.section-this-div-p{
+    margin-top: 10px;
+    font-size: 16px;
+}
