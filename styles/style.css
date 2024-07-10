@@ -1,0 +1,56 @@
+
+
+.azeret-mono-normal {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.btn-text{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(13,19,33);
+}
+.btn-primary{
+    background-color: white;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(13,19,33);
+    padding: 17px 24px;
+    margin-top: 38px;
+    margin-right: 166px;
+    width: auto;
+    height: auto;
+    border: 1px solid rgb(13, 19, 33, 0.8);
+    border-radius: 8px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 28px;
+    /* Awlad.H */
+width: 114px;
+height: 34px;
+margin-top: 50px;
+margin-left: 150px;
+text-align: left;
+}
+nav ul{
+    display: flex;
+    
+ }
+nav ul li{
+    list-style: none;
+}
+
+
