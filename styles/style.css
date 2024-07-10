@@ -166,3 +166,20 @@ main{
     margin-top: 10px;
     font-size: 16px;
 }
+
+
+.section-width-1{
+    width: 852px;
+    text-align: center;
+    color: #0D1321;
+    margin: 0px 144px;
+    
+}
+.embed-video{
+    margin-top: 48px;
+}
+.youtube-video-embed{
+    margin: 32px;
+    width: 1076px;
+    height: 550px;
+}
