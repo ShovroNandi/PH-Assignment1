@@ -182,4 +182,128 @@ main{
     margin: 32px;
     width: 1076px;
     height: 550px;
+    border-radius: 16px;
+}
+
+.section-width-2{
+    width: 852px;
+    text-align: center;
+    color: #0D1321;
+    margin: 151px 95px 48px 99px;
+    
+}
+
+.flex-box{
+    display: flex;
+    
+}
+
+.html-design{
+    width: 364px;
+    margin-right: 24px;
+    border-radius: 16px;
+    padding: 40px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.css-design{
+    width: 364px;
+    margin-right: 24px;
+    border-radius: 16px;
+    padding: 40px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.javascript-design{
+    width: 364px;
+    margin-right: 24px;
+    border-radius: 16px;
+    padding: 40px;
+    background: rgba(255, 223, 0, 0.05);
+}
+.design-h3{
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 24px;
+}
+.design-p{
+    font-size: 16px;
+    margin-top: 8px;
+    width: 284px;
+}
+.design-a{
+    font-size: 16px;
+    font-weight: bold;
+    list-style: none;
+   margin-top: 24px;
+}
+.design-a a{
+    color: #0D1321;
+}
+
+.section-width-3{
+    width: 852px;
+    text-align: center;
+    color: #0D1321;
+    margin: 111px 97px 48px 97px;
+    
+}
+.react-design{
+    display: flex;
+    width: 1060px;
+    height: 140px;
+    margin-bottom: 24px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+}
+.react-img{
+width: 94.78px;
+height: 100px;
+flex: none;
+margin: 15.5px 24px 15.5px 40px;
+}
+.nodejs-design{
+    display: flex;
+    width: 1060px;
+    height: 140px;
+    margin-bottom: 24px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+    
+}
+.nodejs-img{
+    width: 143.51px;
+    height: 88px;
+    flex: none;
+margin: 25px 24px 0px 40px;
+    
+}
+.mongodb-design{
+    display: flex;
+    width: 1060px;
+    height: 140px;
+     border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+}
+.mongodb-img{
+    width: 108px;
+    height: 108px;
+    flex: none;
+    margin: 25px 24px 0px 40px;
+    
+}
+
+.next-design-p{
+    
+    margin-top: 8px;
+}
+.next-design-h3{
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 8px;
+}
+.next-width{
+    width: 941.22px;
+    height: 219px;
 }
