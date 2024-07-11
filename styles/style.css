@@ -254,13 +254,14 @@ main{
 .next-design{
     width: 1140px;
     height: 219px;
+    
 }
 
 .react-design{
     display: flex;
     
      height: 140px;
-    margin-bottom: 24px;
+    margin-bottom: 15px;
     border: 1px solid rgba(13, 19, 33, 0.15);
 border-radius: 16px;
 background: rgb(255, 255, 255);
@@ -275,7 +276,7 @@ margin: 15.5px 24px 15.5px 40px;
     display: flex;
     
     height: 140px;
-    margin-bottom: 24px;
+    margin-bottom: 15px;
     border: 1px solid rgba(13, 19, 33, 0.15);
 border-radius: 16px;
 background: rgb(255, 255, 255);
@@ -362,11 +363,13 @@ font-weight: 600;
     
 }
 .second-banner-content{
+    
     width: 1044px;
+    height: 100px;
     color: white;
     text-align: center;
     align-items: center;
-    margin: 0px 64px;
+    flex-direction: column;
     
 }
 #footer-section{
@@ -378,9 +381,6 @@ margin-top: 79px;
 }
 
 .footer{
-   
-
-
 padding: 32px 150px 0 150px;
 
 }
