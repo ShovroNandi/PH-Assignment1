@@ -74,10 +74,15 @@ nav ul li{
     height: 652px;
 }
 .banner-content{
-    width: 998px;
-    margin: 26px 221px 45px 221px;
-    
+    position: absolute;
+width: 998px;
+height: 582px;
+left: 221px;
+right: 221px;
+top: 157px;
+flex-direction: column;  
 }
+
 .banner-title{
     font-size: 48px;
     font-weight: 800;
@@ -246,10 +251,15 @@ main{
     margin: 111px 97px 48px 97px;
     
 }
+.next-design{
+    width: 1140px;
+    height: 219px;
+}
+
 .react-design{
     display: flex;
-    width: 1060px;
-    height: 140px;
+    
+     height: 140px;
     margin-bottom: 24px;
     border: 1px solid rgba(13, 19, 33, 0.15);
 border-radius: 16px;
@@ -263,7 +273,7 @@ margin: 15.5px 24px 15.5px 40px;
 }
 .nodejs-design{
     display: flex;
-    width: 1060px;
+    
     height: 140px;
     margin-bottom: 24px;
     border: 1px solid rgba(13, 19, 33, 0.15);
@@ -280,11 +290,12 @@ margin: 25px 24px 0px 40px;
 }
 .mongodb-design{
     display: flex;
-    width: 1060px;
+    
     height: 140px;
      border: 1px solid rgba(13, 19, 33, 0.15);
 border-radius: 16px;
 background: rgb(255, 255, 255);
+margin-bottom: 49px;
 }
 .mongodb-img{
     width: 108px;
@@ -306,4 +317,91 @@ background: rgb(255, 255, 255);
 .next-width{
     width: 941.22px;
     height: 219px;
+}
+
+.second-banner{
+    background-image: url(../assets/Handshake.jpg);
+    width:1140px;
+    height: 313px;
+    
+    border-radius: 16px;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;  
+    background:  rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+}
+.second-banner-title{
+    font-size: 32px;
+    font-weight: bold;
+    
+    
+}
+
+.input-parent{
+    width: 684px;
+    display: flex;
+        margin: 24px 180px 0px 180px;
+        
+}
+.input-style-1{
+    width: 548px;
+    height: 57px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    font-size: 16px ;
+    
+}
+.input-style-btn{
+width: 120px;
+height: 57px;
+border-radius: 8px;
+margin: 0px 16px; 
+font-size: 20px;
+font-weight: 600;  
+    
+}
+.second-banner-content{
+    width: 1044px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    margin: 0px 64px;
+    
+}
+#footer-section{
+    width: 1440px;
+height: 100px;
+margin-top: 79px;
+    background: rgba(13, 19, 33, 0.03);
+    border: 2px solid tomato;
+}
+
+.footer{
+    border: 2px solid tomato;
+
+
+padding: 32px 150px 0 150px;
+
+}
+.footer-icon{
+    width: 1140px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+   
+    border-radius: 16px;
+    background-color: white;
+}
+.footer-icon h4{
+    margin-top: 6.5px;
+}
+.footer-icon ul{
+    display: flex;
+    list-style: none;
+    padding-right: 24px;
+}
+.footer-icon ul li{
+    padding-right: 24px;
 }
