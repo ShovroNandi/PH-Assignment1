@@ -320,7 +320,7 @@ margin-bottom: 49px;
 }
 
 .second-banner{
-    background-image: url(../assets/Hero-bg.png);
+    background-image: url(../assets/Handshake.jpg);
     width:1140px;
     height: 313px;
     
@@ -374,11 +374,11 @@ font-weight: 600;
 height: 100px;
 margin-top: 79px;
     background: rgba(13, 19, 33, 0.03);
-    border: 2px solid tomato;
+    
 }
 
 .footer{
-    border: 2px solid tomato;
+   
 
 
 padding: 32px 150px 0 150px;
